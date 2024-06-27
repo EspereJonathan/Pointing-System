@@ -21,6 +21,9 @@ public class Employee {
     private double netSalary;
     private Category category;
 
+    public Employee(String john, String doe, String id, LocalDate of, LocalDate of1, LocalDate of2, int grossSalary, Category normal) {
+    }
+
 
     public double calculateNetSalary() {
         return grossSalary * 0.8;

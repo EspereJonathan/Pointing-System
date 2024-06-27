@@ -2,9 +2,16 @@ package com.espere.pointing_system.service;
 
 import com.espere.pointing_system.entity.Attendance;
 import com.espere.pointing_system.entity.Employee;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
+@AllArgsConstructor
+@Setter
+@NoArgsConstructor
 
 public class AttendanceService {
     private List<Attendance> attendances;
